@@ -1,7 +1,8 @@
+:imagesdir: ../images
 === Pilote
 
 
-image::../images/pilote.png[]
+image::pilote.png[]
 
 
 [NOTE]

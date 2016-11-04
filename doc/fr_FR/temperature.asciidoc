@@ -1,7 +1,8 @@
+:imagesdir: ../images
 === Temperature par defaut
 
 
-image::../images/default.png[]
+image::default.png[]
 
 
 [NOTE]
