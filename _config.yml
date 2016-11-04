@@ -10,7 +10,8 @@ url: jeedom
 
 source: doc/fr_FR
 destination: _site
-
+exclude:
+  - index.html
 asciidoctor:
   base_dir: :docdir
   safe: unsafe
