@@ -1,12 +1,13 @@
+:imagesdir: ../images
 La configuration des Equipements "Thermostat" est accessible a partir du menu plugin :
 il vous suffit de cliquer sur le bouton "ajouter" ou sur un equipement déjà présent.
 
-image::../images/ajout.png[]
+image::ajout.png[]
 
 
 La premiere etape, commune aux plugins Jeedom, consiste au reglage des parametres genéreaux du thermostat
 
-image::../images/general1.png[]
+image::general1.png[]
 
 
 
