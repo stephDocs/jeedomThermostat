@@ -16,12 +16,18 @@ Cette étape permet de définir, l'objet parent, l'activation et la visibilité 
 
 
 
-.La configuration du Thermostat s'effectue en 3 étapes :
-. Configuration du pilotage  (link:pilote.asciidoc[doc])
-. Configuration de la temperature par defaut (link:temperature.asciidoc[doc])
-. Configuration des plages du planning de chauffe (link:planning.asciidoc[doc])
+=== La configuration du Thermostat s'effectue en 3 étapes :
+
+
+include::pilote.asciidoc[]
+
+
+include::temperature.asciidoc[]
+
+
+include::planning.asciidoc[]
 
 
 
 Le thermosatat proposes, par defaut, 7 commandes.
-Vous ne pouvez pas modifier ces commandes. Elles permettent d'interagir avec
+Vous ne pouvez pas modifier ces commandes. Elles permettent d'interagir l'IHM 

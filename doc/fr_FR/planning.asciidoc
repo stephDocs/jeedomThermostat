@@ -1,5 +1,5 @@
 :imagesdir: ../images
-=== Gestion des plages
+==== Gestion des plages
 
 Le plungin Thermostat offre la possibilité de créer des plages spécifiques de controle.
 
@@ -19,7 +19,7 @@ Pour créer une plage, il faut cliquer sur le bouton "Créer une plage".  Cela a
 
 
 
-==== Configuration
+===== Configuration
 
 
 Rien de plus simple. commencez par donner un nom à votre plage et fixez les différents parametres
