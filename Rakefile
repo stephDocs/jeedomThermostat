@@ -22,12 +22,22 @@ namespace :site do
 
    
 
+  desc "préparation dossier de travail"
+  task :prepare do
+    rm_rf('run')
+    cp_r "publish", "run"
+    cp_r "doc/fr_FR/.", "run"
+    cp_r "doc/images/.", "run/images"
 
-task :build do
-  config = Jekyll.configuration({ })
-  site = Jekyll::Site.new(config)
-  Jekyll::Commands::Build.build site, config
-end
+  end
+
+
+  desc "build "
+  task :build => [:prepare] do
+    config = Jekyll.configuration({ })
+    site = Jekyll::Site.new(config)
+    Jekyll::Commands::Build.build site, config
+  end
 
 
    
@@ -36,7 +46,7 @@ end
 
 
   desc "Génération et publication des fichiers sur GitHub"
-  task :publish  do
+  task :publish => [:build]  do
    
      
   
