@@ -1,8 +1,8 @@
 require 'rubygems'
 require 'tmpdir'
 require 'bundler/setup'
-
-
+require "jekyll"
+require 'yaml'
 
 
 
@@ -13,6 +13,26 @@ require 'bundler/setup'
 GITHUB_REPONAME = "stephDocs/jeedomThermostat"
 
 namespace :site do
+
+
+
+
+
+
+
+   
+
+
+task :build do
+  config = Jekyll.configuration({ })
+  site = Jekyll::Site.new(config)
+  Jekyll::Commands::Build.build site, config
+end
+
+
+   
+
+  
 
 
   desc "Génération et publication des fichiers sur GitHub"
