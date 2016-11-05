@@ -1,26 +1,27 @@
 gems:
   - jekyll-asciidoc
   - jekyll-assets
+  - jekyll-paginate 
 
 
 title: ssaThermostat
 description: documentation du plugin saThermostat.
-url: jeedom 
+url: jeedom.com
 
 
-source: doc/fr_FR
+source: run
 destination: _site
 exclude:
   - index.html
+
+
+
 asciidoctor:
   base_dir: :docdir
   safe: unsafe
   attributes:
-    imagesdir: images
-
-
-
-
+    - icons=font
+    - imagesdir=images
 
 
 
