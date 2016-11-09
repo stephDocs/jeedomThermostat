@@ -1,3 +1,6 @@
+---
+:toc: left
+---
 <!doctype html>
 <!--[if IE 9]>
 <html class="lt-ie10" lang="en"> <![endif]-->
@@ -14,8 +17,13 @@
     <link rel="stylesheet" href="{{page.root}}css/coderay.css">
     <link rel="stylesheet" href="{{page.root}}css/asciidoctor.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <script src="{{page.root}}js/vendor/jquery.js"></script>
     <script src="{{page.root}}js/vendor/modernizr.js"></script>
     <script src="{{page.root}}js/toc.js"></script>
+    <script src="{{page.root}}js/float-panel.js"></script>
+
+
 </head>
 <body>
 
@@ -68,6 +76,13 @@
             </p>
            
         </div>
+        <div  class="panel">
+            
+            <p>
+            <div   class="toc"></div>
+            </p>
+            
+        </div>
 
         <div class="panel">
             <h5>Don paypal </h5>
@@ -95,12 +110,15 @@
     </div>
 </footer>
 
-<script src="{{page.root}}js/vendor/jquery.js"></script>
-<script src="{{page.root}}js/foundation.min.js"></script>
+
 <script>
-$(document).foundation();
-var doc = document.documentElement;
-doc.setAttribute('data-useragent', navigator.userAgent);
+
+$('.toc').toc({ title: '<h5>Menu</h5>',
+                headers: 'h1, h2',
+                showEffect: 'slideDown' 
+             });
+
+
 </script>
 </body>
 </html>
