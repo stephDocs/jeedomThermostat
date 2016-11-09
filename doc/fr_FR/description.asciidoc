@@ -1,5 +1,15 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  description
+:page-liquid:
+:icons:
 :imagesdir: ../images
-==== Le chauffage est le poste le plus important dans la consommation d’énergie d’une maison sous les latitudes tempérées.
+
+== Description
+'''
+
+=== Le chauffage est le poste le plus important dans la consommation d’énergie d’une maison sous les latitudes tempérées.
 
 
 
@@ -19,7 +29,7 @@ image::histo.png[height=300,width=800,role="center"]
 
 
 
-==== L'algorithme  de controle mis en place est un algorithme avec une régulation par PID. +
+=== L'algorithme  de controle mis en place est un algorithme avec une régulation par PID. +
 [TIP]
 La régulation PID est la solution la plus performante pour réguler une chaudière +
 Le thermostat va gérer la chaudière via des cycles dont la durée  varie en fonction de l’inertie du système de chauffage. +

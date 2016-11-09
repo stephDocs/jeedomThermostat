@@ -1,3 +1,13 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  installation
+:page-liquid:
+:icons:
+
+
+== Installation
+'''
 Il n'y a pas d'actions particuliere lors  de l'installation du plugin.
 
 J'ai choisi de ne pas exposer, dans cette premiere version les parametres de réglage du PID.

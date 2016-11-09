@@ -1,3 +1,8 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  version
+:page-liquid:
+:icons:
 
-.version : dev 7 nov 2016
-* correction "--var(variable)"
+

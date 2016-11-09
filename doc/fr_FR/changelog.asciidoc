@@ -1,10 +1,17 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  changelog
+:page-liquid:
+:icons:
 :imagesdir: ../images
 
-=== Version
 
-'''
-include::version.asciidoc[]
 
-=== Roadmap
+== Changelog
 '''
-include::roadmap.asciidoc[]
+
+.version : dev 7 nov 2016
+* correction "--var(variable)"
+
+

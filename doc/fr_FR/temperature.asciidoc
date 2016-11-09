@@ -1,5 +1,12 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  temperature
+:page-liquid:
+:icons:
 :imagesdir: ../images
-=== Temperature par defaut
+
+==== Temperature par defaut
 
 
 image::default.png[]

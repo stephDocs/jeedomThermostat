@@ -1,5 +1,13 @@
-==== Mode d'emplois du thermostat.
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  guide
+:page-liquid:
+:icons:
 
+
+== Mode d'emplois du thermostat.
+'''
 
 L'utilisaion du themostat est simple et intuitif. Le Thermosat dispose de deux boutons "mode -" et "mode +". +
 Ces deux boutons permettent de passer succesiffement  sur les modes suivants :

@@ -1,6 +1,12 @@
+:Date: $Date$
+:Revision: $Id$
+:docinfo:
+:title:  pilote
+:page-liquid:
+:icons:
 :imagesdir: ../images
 
-=== Pilote
+==== Pilote
 
 
 image::pilote.png[]
