@@ -8,7 +8,7 @@
 
 La configuration des équipements "Thermostat" est accessible à partir du menu plugin :
 il vous suffit de cliquer sur le bouton "ajouter" ou sur un équipement déjà présent.
-=======
+
 
 == Configuration d'un thermostat
 '''
@@ -47,7 +47,7 @@ include::planning.asciidoc[]
 
 Le thermostat propose, par defaut, 9 commandes.
 Vous ne pouvez pas modifier ces commandes.
-Elles permettent d'interagir avec l'IHM. 
+Elles permettent d'interagir avec l'IHM.
 
 [NOTE]
 les commandes suivantes peuvent etres appelées à partir de vos scénarios ou autre modules. :
