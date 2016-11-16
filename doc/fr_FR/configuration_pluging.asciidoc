@@ -10,7 +10,7 @@
 == Configuration du plugin
 '''
 
-Apres le  telechargement du plugin, il vous suffit juste d'activer celui-ci, il n'y a aucune configuration a ce niveau.
+Aprés le  téléchargement du plugin, il vous suffit juste d'activer celui-ci, il n'y a aucune configuration à ce niveau.
 
 
 image::plugin.png[]
