@@ -11,13 +11,31 @@ require 'yaml'
 
 # Indiquez le nom de votre dépôt
 GITHUB_REPONAME = "stephDocs/jeedomThermostat"
+SOURCE = "https://gitlab.com/domoSteph/thermo.git"
 
 namespace :site do
 
 
 
 
+  desc "maj doc"
+  task :maj do
+  	
+  	Dir.mktmpdir do |tmp_site|
+      lpwd = Dir.pwd
 
+      Dir.chdir tmp_site
+      system "git clone #{SOURCE} data"
+      cp_r "data/doc/fr_FR/." , lpwd +"/doc/fr_FR"
+      cp_r "data/doc/images/." , lpwd +"/doc/images"
+      Dir.chdir lpwd
+    end
+    message = "Site mis à jour le #{Time.now.utc}"
+    system "git add -A"
+    system "git commit -m #{message.inspect}"
+    system "git push origin master --force"
+
+  end
 
 
    
