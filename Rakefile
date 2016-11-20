@@ -16,7 +16,11 @@ SOURCE = "https://gitlab.com/domoSteph/thermo.git"
 namespace :site do
 
 
-
+  desc "deploy maj"
+  task :deploy  do
+    Rake::Task["site:maj"].invoke
+    Rake::Task["site:publish"].invoke
+  end
 
   desc "maj doc"
   task :maj do
