@@ -31,16 +31,19 @@ Cette étape permet de définir, l'objet parent, l'activation et la visibilité 
 
 
 
-=== La configuration du Thermostat s'effectue en 3 étapes :
+=== La configuration du Thermostat s'effectue en 4 étapes :
 
 
 include::pilote.asciidoc[]
 
-
 include::temperature.asciidoc[]
 
+include::reglage.asciidoc[]
 
 include::planning.asciidoc[]
+
+
+
 
 
 

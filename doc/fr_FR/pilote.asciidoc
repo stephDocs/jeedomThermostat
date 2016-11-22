@@ -33,3 +33,11 @@ Cette commande permet d'indiquer au thermostat la commande à utiliser pour arr�
 [TIP]
 Pour configurer une commande, il faut utiliser le bouton "Rechercher un équipement".
 Les commandes disponible pour la Sonde sont des commandes de type "Info".
+
+[TIP]
+Dans le cas ou votre thermostat commande plusieurs radiateurs il faut indiquer les differentes commandes permetant de piloter les appareils avec le séparateur "&&". +
+Dans mon exemple, j'ai deux radiateurs et j'indique donc : +
+....
+Commande ON :#[developpement][radiateur1][On]#&&#[developpement][radiateur2][On]#
+Commande Off :#[developpement][radiateur1][Off]#&&#[developpement][radiateur2][Off]#
+....

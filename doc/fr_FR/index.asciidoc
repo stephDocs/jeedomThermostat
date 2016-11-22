@@ -20,6 +20,7 @@ include::configuration_objet_1.asciidoc[]
 
 include::guide.asciidoc[]
 
+include::integration.asciidoc[]
 
 include::faq.asciidoc[]
 
