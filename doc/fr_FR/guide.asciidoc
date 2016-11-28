@@ -32,7 +32,7 @@ a|
 
 .... Ring : ce disque animé est présent lorsque la chaudière est en marche.
 .... Mode : cet indicateur indique le mode de fonctionnement du thermostat. +
-(Off > On > Auto > Hors Gel
+(Off > On > Auto > Hors Gel > Absence
 .... Température : température de la pièce.
 .... Consigne :  température de consigne (température à atteindre).
 .... Mode + : bouton permettant de changer de mode.
@@ -58,7 +58,7 @@ a|
 .... Ring Température : indicateur du niveau de température Ambiante
 .... Température : température de la pièce.
 .... Mode : cet indicateur indique le mode de fonctionnement du thermostat. +
-(Off > On > Auto > Hors Gel
+(Off > On > Auto > Hors Gel > Absence
 .... État : cet indicateur indique l'état de fonctionnement de la chaudière
 .... Mode + : bouton permettant de changer de mode
 .... Mode - : bouton permettant de changer de mode

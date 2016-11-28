@@ -10,7 +10,7 @@
 
 == Changelog
 '''
-.version : dev 13 nov 2016
+.version : dev  janv 2017 (tests en cours)
 * ajout mode absence
 * ajout pour les scénarios des commandes
 ** presence

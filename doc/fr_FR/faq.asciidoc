@@ -8,4 +8,6 @@
 
 == FAQ
 '''
-Pas de questions pour le moment.
+.Nouvelle version
+Cette version est une version majeur.
+il est conseillé de suprrimer les thermostats existant et d'en créer de nouveaux
