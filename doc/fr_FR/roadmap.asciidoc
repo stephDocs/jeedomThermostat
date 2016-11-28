@@ -18,5 +18,5 @@
 * ajout de la possibilité de commander plusieurs appareils (utiliser les && )
 
 .printemps 2017
-*  ajout de la fonction refroidir ()
+* ajout de la fonction refroidir ()
 * ajout shunt "fenetre ouverte"
