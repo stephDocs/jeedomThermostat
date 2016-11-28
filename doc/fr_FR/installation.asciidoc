@@ -14,6 +14,6 @@ J'ai choisi de ne pas exposer, pour les profils non expert les paramètres de r�
 
 Cela reste donc plus simple. Le thermostat est réglé pour atteindre le plus rapidement possible la température de consigne.
 
-Les cycles sont des cycles de 10 minutes. Pour préserver la chaudière, le temps minimum de chauffe est fixé à 3 minutes.
+Par defaut les cycles sont des cycles de 10 minutes. Pour préserver la chaudière, le temps minimum de chauffe est fixé à 3 minutes.
 
 
