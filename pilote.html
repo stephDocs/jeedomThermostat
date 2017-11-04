@@ -1,0 +1,201 @@
+<!doctype html>
+<!--[if IE 9]>
+<html class="lt-ie10" lang="en"> <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <meta name="description" content="documentation du plugin saThermostat.">
+    <meta name="author" content="Your name goes here">
+    <meta name="copyright" content="Maybe consider a Creative Commons license">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/coderay.css">
+    <link rel="stylesheet" href="css/asciidoctor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="js/toc.js"></script>
+    <script src="js/float-panel.js"></script>
+
+
+</head>
+<body>
+
+
+<!-- Nav Bar -->
+
+<nav class="top-bar" data-topbar>
+    <ul class="title-area">
+        <!-- Title Area -->
+        <li class="name">
+            <h1>
+                <a href="">ssaThermostat</a>
+            </h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+    </ul>
+</nav>
+<!-- End Nav -->
+
+
+<!-- Main Page Content and Sidebar -->
+
+<div class="row">
+
+    <!-- Main Blog Content -->
+    <div class="large-9 columns" role="content">
+
+        <div class="sect3">
+<h4 id="pilote">Pilote</h4>
+<div class="imageblock">
+<div class="content">
+<img src="images/pilote.png" alt="pilote">
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+il s&#8217;agit dans cette section de configurer les commandes qui vont permettre au Thermostat d&#8217;interagir avec votre domotique.
+</td>
+</tr>
+</table>
+</div>
+<div class="olist arabic">
+<div class="title">Ces  commandes sont :</div>
+<ol class="arabic">
+<li>
+<p>Sonde</p>
+<div class="literalblock">
+<div class="content">
+<pre>La sonde de température permet d'indiquer au Thermostat la commande qui va lui permettre de relever la température d'ambiance de votre pièce.</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Commande ON</p>
+<div class="literalblock">
+<div class="content">
+<pre>Cette commande permet d'indiquer au Thermostat la commande à utiliser pour mettre en route votre chaudière ou radiateur</pre>
+</div>
+</div>
+</li>
+<li>
+<p>Commande Off</p>
+<div class="literalblock">
+<div class="content">
+<pre>Cette commande permet d'indiquer au thermostat la commande à utiliser pour arrêter votre chaudière ou radiateur</pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Pour configurer une commande, il faut utiliser le bouton "Rechercher un équipement".
+Les commandes disponible pour la Sonde sont des commandes de type "Info".
+</td>
+</tr>
+</table>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Dans le cas ou votre thermostat commande plusieurs radiateurs il faut indiquer les differentes commandes permetant de piloter les appareils avec le séparateur "&amp;&amp;".<br>
+Dans mon exemple, j&#8217;ai deux radiateurs et j&#8217;indique donc :<br>
+</td>
+</tr>
+</table>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Commande ON :#[developpement][radiateur1][On]#&amp;&amp;#[developpement][radiateur2][On]#
+Commande Off :#[developpement][radiateur1][Off]#&amp;&amp;#[developpement][radiateur2][Off]#</pre>
+</div>
+</div>
+</div>
+
+    </div>
+
+    <!-- End Main Content -->
+
+    <!-- Sidebar -->
+
+    <aside class="large-3 columns">
+
+        <h4>Stéphane SAUTRON</h4>
+       
+      
+     
+    
+   
+
+        
+        <div class="panel">
+            <h5>Thermostat Jeedom </h5>
+
+            <p> Ce thermostat pour jeedom proposes un fonctionnement simple basé sur un planning et une régulation par PID 
+            </p>
+           
+        </div>
+        <div  class="panel">
+            
+            <p>
+            <div   class="toc"></div>
+            </p>
+            
+        </div>
+
+        <div class="panel">
+            <h5>Don paypal </h5>
+
+            <p>J'accepte les dons sur <a href="https://www.paypal.me/stephanesautron">paypal</a> </p>
+        </div>
+    </aside>
+
+    <!-- End Sidebar -->
+</div>
+
+<!-- End Main Content and Sidebar -->
+
+
+<!-- Footer -->
+
+<footer class="row">
+    <div class="large-12 columns">
+        <hr>
+        <div class="row">
+            <div class="large-12 columns">
+                <p></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+
+$('.toc').toc({ title: '<h5>Menu</h5>',
+                headers: 'h1, h2',
+                showEffect: 'slideDown' 
+             });
+
+
+</script>
+</body>
+</html>
